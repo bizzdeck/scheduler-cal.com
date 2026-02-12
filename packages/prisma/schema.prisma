@@ -3044,7 +3044,7 @@ model TeamBilling {
   subscriptionEnd      DateTime?
 
   billingPeriod     BillingPeriod?
-  billingMode       BillingMode    @default(SEATS)
+  billingMode       BillingMode        @default(SEATS)
   pricePerSeat      Int?
   paidSeats         Int?
   monthlyProrations MonthlyProration[]
@@ -3073,7 +3073,7 @@ model OrganizationBilling {
   subscriptionEnd      DateTime?
 
   billingPeriod     BillingPeriod?
-  billingMode       BillingMode    @default(SEATS)
+  billingMode       BillingMode        @default(SEATS)
   pricePerSeat      Int?
   paidSeats         Int?
   monthlyProrations MonthlyProration[]
