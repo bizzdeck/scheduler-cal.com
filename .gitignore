@@ -114,3 +114,7 @@ specs/**/_drafts/
 # trigger.dev
 .trigger
 agents/devin-knowledge.json
+
+# PM2 logs
+logs/
+*.log
